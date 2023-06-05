@@ -46,9 +46,11 @@ function audio() {
   if(allowaudio == 'off'){
     allowaudio = 'on'
     console.log('on')
+    document.getElementById('status').innerHTML = 'Audio is: On';
   }else{
     allowaudio = 'off'
     console.log('off')
+    document.getElementById('status').innerHTML = 'Audio is: Off';
   }
 }
 
